@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="">
+    <p>
+      Notes: 
+      <ul>
+        <li>You can disable any of the followig by adding <code>disabled</code>. Example: <code>&lt;fieldset disabled></code>.</li>
+        <li>You can set a field as requied by adding <code>required</code>. Example <code>&lt;input type="text" name="text" required></code>.</li>
+      </ul>
+ 
+    </p>
+    <fieldset>
+      <label for="text">Text</label>
+      <input type="text" name="text" id="text">
+    </fieldset>
+
+    <fieldset>
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date">
+    </fieldset>
+    
+    <fieldset>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </fieldset>
+
+    <fieldset>
+      <label for="file">File</label>
+      <input type="file" accept="image/*, text/*" name="file" id="file">
+    </fieldset>
+    
+    <fieldset>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+    </fieldset>
+
+    <fieldset>
+      <label for="search">Search</label>
+      <input type="search" name="search" id="search">
+    </fieldset>
+
+    <fieldset>
+      <label for="tel">Telephone</label>
+      <input type="tel" name="tel" id="tel">
+    </fieldset>
+  </form>
+</body>
+</html>
